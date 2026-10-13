@@ -1,0 +1,1515 @@
+{
+ "_readme": [
+  "Custom ISL mapping: English words -> ISL GLOSS labels.",
+  "A gloss is only a LABEL for an entry in your sign database. It does not describe how the sign looks.",
+  "status: 'unverified' = mapping not yet checked against ISLRTC reference / a signer;",
+  "        'verified'   = checked, sign articulation recorded in assets/refs;",
+  "        'animated'   = the avatar animation (action) exists and works -> only these play without fallback.",
+  "Optional per-entry fields: 'animation' (action name, default ISL_<GLOSS>), 'source' (reference URL / note), 'not_tags'.",
+  "Edit this file freely. Add words to 'words' for synonyms; add new glosses for new signs."
+ ],
+ "signs": {
+  "WHAT": {
+   "words": [
+    "what"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "WHO": {
+   "words": [
+    "who",
+    "whom"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "WHOSE": {
+   "words": [
+    "whose"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "WHERE": {
+   "words": [
+    "where"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "WHEN": {
+   "words": [
+    "when"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "WHY": {
+   "words": [
+    "why"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "HOW": {
+   "words": [
+    "how"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "WHICH": {
+   "words": [
+    "which"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "HOW-MUCH": {
+   "words": [
+    "how much"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "HOW-MANY": {
+   "words": [
+    "how many"
+   ],
+   "cat": "wh",
+   "status": "unverified"
+  },
+  "ME": {
+   "words": [
+    "i",
+    "me"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "MY": {
+   "words": [
+    "my",
+    "mine"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "YOU": {
+   "words": [
+    "you"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "YOUR": {
+   "words": [
+    "your",
+    "yours"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "WE": {
+   "words": [
+    "we",
+    "us"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "OUR": {
+   "words": [
+    "our",
+    "ours"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "HE": {
+   "words": [
+    "he",
+    "him"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "SHE": {
+   "words": [
+    "she"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "HIS": {
+   "words": [
+    "his"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "HER": {
+   "words": [
+    "her"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "THEY": {
+   "words": [
+    "they",
+    "them"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "THEIR": {
+   "words": [
+    "their",
+    "theirs"
+   ],
+   "cat": "pronoun",
+   "status": "unverified"
+  },
+  "THIS": {
+   "words": [
+    "this"
+   ],
+   "cat": "dem",
+   "status": "unverified",
+   "not_tags": [
+    "WDT",
+    "IN"
+   ]
+  },
+  "THAT": {
+   "words": [
+    "that"
+   ],
+   "cat": "dem",
+   "status": "unverified",
+   "not_tags": [
+    "WDT",
+    "IN"
+   ]
+  },
+  "HERE": {
+   "words": [
+    "here"
+   ],
+   "cat": "place",
+   "status": "unverified"
+  },
+  "THERE": {
+   "words": [
+    "there"
+   ],
+   "cat": "place",
+   "status": "unverified"
+  },
+  "HELLO": {
+   "words": [
+    "hello",
+    "hi"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "WELCOME": {
+   "words": [
+    "welcome"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "THANK-YOU": {
+   "words": [
+    "thank you",
+    "thanks"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "SORRY": {
+   "words": [
+    "sorry"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "EXCUSE-ME": {
+   "words": [
+    "excuse me"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "PLEASE": {
+   "words": [
+    "please"
+   ],
+   "cat": "polite",
+   "status": "unverified"
+  },
+  "GOOD-MORNING": {
+   "words": [
+    "good morning"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "GOOD-AFTERNOON": {
+   "words": [
+    "good afternoon"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "GOOD-EVENING": {
+   "words": [
+    "good evening"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "GOOD-NIGHT": {
+   "words": [
+    "good night"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "BYE": {
+   "words": [
+    "bye",
+    "goodbye"
+   ],
+   "cat": "greeting",
+   "status": "unverified"
+  },
+  "YES": {
+   "words": [
+    "yes"
+   ],
+   "cat": "answer",
+   "status": "unverified"
+  },
+  "NO": {
+   "words": [
+    "no"
+   ],
+   "cat": "answer",
+   "status": "unverified"
+  },
+  "NOT": {
+   "words": [
+    "not",
+    "n't",
+    "never"
+   ],
+   "cat": "negation",
+   "status": "unverified"
+  },
+  "CAN": {
+   "words": [
+    "can",
+    "could"
+   ],
+   "cat": "modal",
+   "status": "unverified"
+  },
+  "MUST": {
+   "words": [
+    "must"
+   ],
+   "cat": "modal",
+   "status": "unverified"
+  },
+  "SHOULD": {
+   "words": [
+    "should"
+   ],
+   "cat": "modal",
+   "status": "unverified"
+  },
+  "MAY": {
+   "words": [
+    "may",
+    "might"
+   ],
+   "cat": "modal",
+   "status": "unverified"
+  },
+  "WANT": {
+   "words": [
+    "want",
+    "wish"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "NEED": {
+   "words": [
+    "need"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "GO": {
+   "words": [
+    "go"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "COME": {
+   "words": [
+    "come"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "GIVE": {
+   "words": [
+    "give"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "TAKE": {
+   "words": [
+    "take"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "GET": {
+   "words": [
+    "get",
+    "receive",
+    "obtain"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "SHOW": {
+   "words": [
+    "show"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "SEE": {
+   "words": [
+    "see",
+    "look"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "KNOW": {
+   "words": [
+    "know"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "UNDERSTAND": {
+   "words": [
+    "understand"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "HELP": {
+   "words": [
+    "help"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "PAY": {
+   "words": [
+    "pay"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "BUY": {
+   "words": [
+    "buy",
+    "purchase"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "APPLY": {
+   "words": [
+    "apply"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "FILL": {
+   "words": [
+    "fill",
+    "fill out",
+    "fill in"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "WAIT": {
+   "words": [
+    "wait"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "OPEN": {
+   "words": [
+    "open"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "CLOSE": {
+   "words": [
+    "close",
+    "shut"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "START": {
+   "words": [
+    "start",
+    "begin"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "FINISH": {
+   "words": [
+    "finish",
+    "complete"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "STOP": {
+   "words": [
+    "stop"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "REPEAT": {
+   "words": [
+    "repeat"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "SAY": {
+   "words": [
+    "say",
+    "tell"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "SPEAK": {
+   "words": [
+    "speak",
+    "talk"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "LIKE": {
+   "words": [
+    "like"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "LIVE": {
+   "words": [
+    "live"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "WORK": {
+   "words": [
+    "work"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "EAT": {
+   "words": [
+    "eat"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "DRINK": {
+   "words": [
+    "drink"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "SIT": {
+   "words": [
+    "sit"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "MEET": {
+   "words": [
+    "meet"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "CALL": {
+   "words": [
+    "call"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "USE": {
+   "words": [
+    "use"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "CHECK": {
+   "words": [
+    "check"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "SUBMIT": {
+   "words": [
+    "submit"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "COLLECT": {
+   "words": [
+    "collect"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "CANCEL": {
+   "words": [
+    "cancel"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "CHANGE": {
+   "words": [
+    "change"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "FIND": {
+   "words": [
+    "find"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "ARRIVE": {
+   "words": [
+    "arrive",
+    "reach"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "LEAVE": {
+   "words": [
+    "leave",
+    "depart"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "STAY": {
+   "words": [
+    "stay"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "TRAVEL": {
+   "words": [
+    "travel"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "HAVE": {
+   "words": [
+    "have"
+   ],
+   "cat": "verb",
+   "status": "unverified"
+  },
+  "NAME": {
+   "words": [
+    "name"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "AGE": {
+   "words": [
+    "age"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "ADDRESS": {
+   "words": [
+    "address"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PHONE": {
+   "words": [
+    "phone",
+    "mobile"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "NUMBER": {
+   "words": [
+    "number"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "FORM": {
+   "words": [
+    "form",
+    "application"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "DOCUMENT": {
+   "words": [
+    "document"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "CARD": {
+   "words": [
+    "card"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "ID-CARD": {
+   "words": [
+    "id card",
+    "identity card",
+    "id"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "LICENSE": {
+   "words": [
+    "license",
+    "licence"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "DRIVING-LICENSE": {
+   "words": [
+    "driving license",
+    "driving licence",
+    "driver license",
+    "driver licence"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "RATION-CARD": {
+   "words": [
+    "ration card"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PASSPORT": {
+   "words": [
+    "passport"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "TICKET": {
+   "words": [
+    "ticket"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "MONEY": {
+   "words": [
+    "money"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "FEE": {
+   "words": [
+    "fee"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PRICE": {
+   "words": [
+    "price",
+    "cost"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "BILL": {
+   "words": [
+    "bill"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "BANK": {
+   "words": [
+    "bank"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "HOSPITAL": {
+   "words": [
+    "hospital"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "DOCTOR": {
+   "words": [
+    "doctor"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "MEDICINE": {
+   "words": [
+    "medicine"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "OFFICE": {
+   "words": [
+    "office"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "BUS": {
+   "words": [
+    "bus"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "TRAIN": {
+   "words": [
+    "train"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "BUS-STOP": {
+   "words": [
+    "bus stop",
+    "bus stand"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "STATION": {
+   "words": [
+    "station"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "TOILET": {
+   "words": [
+    "toilet",
+    "restroom",
+    "washroom"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "WATER": {
+   "words": [
+    "water"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "FOOD": {
+   "words": [
+    "food"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "POLICE": {
+   "words": [
+    "police"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "SCHOOL": {
+   "words": [
+    "school"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "HOME": {
+   "words": [
+    "home",
+    "house"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "FAMILY": {
+   "words": [
+    "family"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "FRIEND": {
+   "words": [
+    "friend"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PERSON": {
+   "words": [
+    "person"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "MAN": {
+   "words": [
+    "man"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "WOMAN": {
+   "words": [
+    "woman"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "CHILD": {
+   "words": [
+    "child",
+    "kid"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PROBLEM": {
+   "words": [
+    "problem"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "QUESTION": {
+   "words": [
+    "question"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "ANSWER": {
+   "words": [
+    "answer"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "QUEUE": {
+   "words": [
+    "queue",
+    "line"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "COUNTER": {
+   "words": [
+    "counter",
+    "window"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "SERVICE": {
+   "words": [
+    "service"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "INFORMATION": {
+   "words": [
+    "information"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PHOTO": {
+   "words": [
+    "photo",
+    "picture"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "ELECTRICITY": {
+   "words": [
+    "electricity"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "GOOD": {
+   "words": [
+    "good"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "BAD": {
+   "words": [
+    "bad"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "BIG": {
+   "words": [
+    "big",
+    "large"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "SMALL": {
+   "words": [
+    "small",
+    "little"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "NEW": {
+   "words": [
+    "new"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "OLD": {
+   "words": [
+    "old"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "MORE": {
+   "words": [
+    "more"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "LESS": {
+   "words": [
+    "less"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "MANY": {
+   "words": [
+    "many"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "ALL": {
+   "words": [
+    "all"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "SOME": {
+   "words": [
+    "some"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "SLOW": {
+   "words": [
+    "slow",
+    "slowly"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "FAST": {
+   "words": [
+    "fast",
+    "quick",
+    "quickly"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "AGAIN": {
+   "words": [
+    "again"
+   ],
+   "cat": "adv",
+   "status": "unverified"
+  },
+  "NEAR": {
+   "words": [
+    "near",
+    "nearby"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "NEAREST": {
+   "words": [
+    "nearest"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "FAR": {
+   "words": [
+    "far"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "LEFT": {
+   "words": [
+    "left"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "RIGHT": {
+   "words": [
+    "right"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "STRAIGHT": {
+   "words": [
+    "straight"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "FREE": {
+   "words": [
+    "free"
+   ],
+   "cat": "adj",
+   "status": "unverified"
+  },
+  "TODAY": {
+   "words": [
+    "today"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "TOMORROW": {
+   "words": [
+    "tomorrow"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "YESTERDAY": {
+   "words": [
+    "yesterday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "NOW": {
+   "words": [
+    "now"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "TONIGHT": {
+   "words": [
+    "tonight"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "MORNING": {
+   "words": [
+    "morning"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "AFTERNOON": {
+   "words": [
+    "afternoon"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "EVENING": {
+   "words": [
+    "evening"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "NIGHT": {
+   "words": [
+    "night"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "NEXT": {
+   "words": [
+    "next"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "LAST": {
+   "words": [
+    "last"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "BEFORE": {
+   "words": [
+    "before"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "AFTER": {
+   "words": [
+    "after"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "LATER": {
+   "words": [
+    "later"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "EARLY": {
+   "words": [
+    "early"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "LATE": {
+   "words": [
+    "late"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "WEEK": {
+   "words": [
+    "week"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "MONTH": {
+   "words": [
+    "month"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "YEAR": {
+   "words": [
+    "year"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "DAY": {
+   "words": [
+    "day"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "HOUR": {
+   "words": [
+    "hour"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "MINUTE": {
+   "words": [
+    "minute"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "TIME": {
+   "words": [
+    "time"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "DATE": {
+   "words": [
+    "date"
+   ],
+   "cat": "noun",
+   "status": "unverified"
+  },
+  "PM": {
+   "words": [
+    "pm",
+    "p.m."
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "AM": {
+   "words": [
+    "a.m.",
+    "am"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "MONDAY": {
+   "words": [
+    "monday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "TUESDAY": {
+   "words": [
+    "tuesday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "WEDNESDAY": {
+   "words": [
+    "wednesday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "THURSDAY": {
+   "words": [
+    "thursday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "FRIDAY": {
+   "words": [
+    "friday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "SATURDAY": {
+   "words": [
+    "saturday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "SUNDAY": {
+   "words": [
+    "sunday"
+   ],
+   "cat": "time",
+   "status": "unverified"
+  },
+  "0": {
+   "words": [
+    "zero",
+    "0"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "1": {
+   "words": [
+    "one",
+    "1"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "2": {
+   "words": [
+    "two",
+    "2"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "3": {
+   "words": [
+    "three",
+    "3"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "4": {
+   "words": [
+    "four",
+    "4"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "5": {
+   "words": [
+    "five",
+    "5"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "6": {
+   "words": [
+    "six",
+    "6"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "7": {
+   "words": [
+    "seven",
+    "7"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "8": {
+   "words": [
+    "eight",
+    "8"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "9": {
+   "words": [
+    "nine",
+    "9"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "10": {
+   "words": [
+    "ten",
+    "10"
+   ],
+   "cat": "number",
+   "status": "unverified"
+  },
+  "IF": {
+   "words": [
+    "if"
+   ],
+   "cat": "conj",
+   "status": "unverified"
+  },
+  "BECAUSE": {
+   "words": [
+    "because"
+   ],
+   "cat": "conj",
+   "status": "unverified"
+  }
+ }
+}

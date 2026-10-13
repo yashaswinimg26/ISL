@@ -1,0 +1,35 @@
+{
+ "_readme": [
+  "ISL grammar settings. These are ASSUMPTIONS to be confirmed with ISLRTC material or a fluent ISL signer.",
+  "wh_position: where WHAT/WHERE/WHO... go in the sentence: 'start' (matches the project diagram: WHAT YOUR NAME) or 'end'.",
+  "  As far as I know many ISL descriptions put question words at the END, so test both with a signer.",
+  "time_first: move time expressions (TOMORROW, 5 PM) to the front of the clause.",
+  "word order inside a clause: [time] [subject] [objects/complements] [adverbs] [verb] [modal] [NOT]  (subject-object-verb).",
+  "unknown_other: same for unknown verbs/adjectives/adverbs. Default 'flag' (marked missing); fingerspelling is mainly for names and nouns.",
+  "past_marker / future_marker: gloss to add after the verb for past / future tense, or null for none (time words carry tense).",
+  "unknown_word: what to do with a word that has no entry in lexicon.json: 'fingerspell', 'flag' (marked missing) or 'skip'.",
+  "drop_lemmas: extra words removed entirely (no sign).",
+  "keep_prepositions: prepositions to keep as glosses (all other prepositions are removed)."
+ ],
+ "wh_position": "start",
+ "time_first": true,
+ "past_marker": null,
+ "future_marker": null,
+ "unknown_word": "fingerspell",
+ "keep_prepositions": [],
+ "drop_lemmas": [
+  "very",
+  "really",
+  "just",
+  "quite",
+  "actually",
+  "also",
+  "so",
+  "too",
+  "well",
+  "okay",
+  "ok"
+ ],
+ "max_chars": 1000,
+ "unknown_other": "flag"
+}
